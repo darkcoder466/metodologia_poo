@@ -79,7 +79,7 @@ class Hotel:
         else:
             print(f"No se pudo registrar el huesped.")    
 
-huesped1 = Huesped("jorgenitales","3438SF83'LBC")
+huesped1 = Huesped("jorgen","3438SF83'LBC")
 hotel1 = Hotel("pasaje Aristi",10)
 hotel1.registrar_huesped(huesped1)
 hotel1.reservar_habitacion("individual","jorge",3)
